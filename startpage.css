@@ -1,0 +1,208 @@
+.image-33 {
+	position: absolute;
+	top: -31px;
+	left: 0px;
+	width: 100%;
+	height: 942px;
+}
+.home-page-child {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #3f5762;
+	width: 100%;
+	height: 60px;
+}
+.flood-aware-sg {
+	position: absolute;
+	top: 539px;
+	left: 214px;
+	font-size: 50px;
+	line-height: 70px;
+	display: inline-block;
+	white-space: pre-wrap;
+	width: 585px;
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about {
+	position: relative;
+	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.story-page {
+	width: 82px;
+	position: relative;
+	display: inline-block;
+	flex-shrink: 0;
+	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.about-parent {
+	position: absolute;
+	top: 21px;
+	left: calc(50% + 317.5px);
+	width: 460px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 43px;
+	font-size: 16px;
+}
+.visualizing-singapores-flood {
+	position: absolute;
+	top: 609px;
+	left: 214px;
+	line-height: 30px;
+	color: #d9d9d9;
+	display: inline-block;
+	width: 600px;
+}
+.start {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.start-wrapper {
+	width: 209px;
+	position: relative;
+	height: 19px;
+}
+.home-page-inner {
+	position: absolute;
+	top: 669px;
+	left: 214px;
+	border-radius: 15px;
+	background-color: #8ba2a7;
+	width: 250px;
+	height: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 60px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20px;
+}
+.flood-sg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 30px;
+	display: inline-block;
+	width: 165px;
+}
+.flood-sg-wrapper {
+	position: absolute;
+	top: 3px;
+	left: 72px;
+	width: 165px;
+	height: 30px;
+}
+.icon {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 72px;
+	height: 36px;
+	object-fit: cover;
+}
+.group-parent {
+	position: absolute;
+	top: 12px;
+	left: 60px;
+	width: 231px;
+	height: 36px;
+	text-align: center;
+	color: #e3effb;
+}
+.home-page {
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	height: 880px;
+	overflow: hidden;
+	text-align: left;
+	font-size: 22px;
+	color: #fff;
+	font-family: Rubik;
+}
+	a,
+	a:visited,
+	a:hover,
+	a:active {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	font-family: 'Rubik', sans-serif;
+	}
+
+
+	.start-button {
+		position: absolute;
+		top: 669px;
+		left: 214px;
+		border-radius: 15px;
+		background-color: #8ba2a7;
+		width: 250px;
+		height: 60px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 40px;
+		font-size: 20px;
+		font-family: 'Rubik', sans-serif; /* ✅ 加上这一行 */
+		color: white;
+		text-decoration: none;
+		gap: 12px;
+		transition: all 0.3s ease;
+	  }
+	  
+	  .start-button:hover {
+		background-color: #3f5762;
+		transform: scale(1.05);
+	  }
+	  
+	  .start-text {
+		font-weight: 700; /* 加粗，Rubik 的 Bold 权重为 700 */
+		font-family: 'Rubik', sans-serif;
+		transition: transform 0.3s ease;
+		
+
+	  }
+	  
+	  .start-button:hover .start-text {
+		font-family: 'Rubik', sans-serif;
+		transform: scale(1.1);
+		text-decoration: underline;
+	  }
+	  
+	  .arrow-icon {
+		width: 14px;
+		height: 14px;
+		opacity: 0;
+		transform: translateX(0px) scale(0.5);
+		transition: all 0.3s ease;
+	  }
+	  
+	  .start-button:hover .arrow-icon {
+		opacity: 1;
+		animation: floatArrow 0.6s ease-in-out infinite alternate;
+		transform: scale(1.2);
+	  }
+	  
+	  @keyframes floatArrow {
+		0% {
+		  transform: translateX(0px) scale(1.2);
+		}
+		100% {
+		  transform: translateX(6px) scale(1.2);
+		}
+	  }
+	  

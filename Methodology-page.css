@@ -1,0 +1,883 @@
+.methodology-child {
+  	position: absolute;
+  	width: 100%;
+  	top: 1778px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: #f8f8f8;
+  	height: 563px;
+}
+.product {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 18px;
+  	line-height: 30px;
+  	font-weight: 500;
+  	color: #0b132a;
+}
+.download {
+  	position: absolute;
+  	top: 50px;
+  	left: 0px;
+  	line-height: 30px;
+}
+.locations {
+  	position: absolute;
+  	top: 90.11px;
+  	left: 0px;
+  	line-height: 30px;
+}
+.server {
+  	position: absolute;
+  	top: 130.11px;
+  	left: 0px;
+  	line-height: 30px;
+}
+.blog {
+  	position: absolute;
+  	top: 170.22px;
+  	left: 0px;
+  	line-height: 30px;
+}
+.product-parent {
+  	position: absolute;
+  	top: 1963px;
+  	left: 925px;
+  	width: 74px;
+  	height: 200.2px;
+}
+.faq {
+  	position: absolute;
+  	top: 50.11px;
+  	left: 0px;
+  	line-height: 30px;
+}
+.were-hiring {
+  	position: absolute;
+  	top: 170.11px;
+  	left: 0px;
+  	line-height: 30px;
+}
+.company-parent {
+  	position: absolute;
+  	top: 1963px;
+  	left: 1159px;
+  	width: 90px;
+  	height: 200.1px;
+}
+.privacy {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	line-height: 30px;
+  	font-weight: 500;
+}
+.terms-of-use {
+  	margin-block-start: 0;
+  	margin-block-end: 5px;
+}
+.site-map {
+  	margin: 0;
+}
+.privacy-terms-of-container {
+  	position: absolute;
+  	top: 50px;
+  	left: 0px;
+  	font-size: 16px;
+  	line-height: 30px;
+  	color: #4f5665;
+}
+.privacy-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 96px;
+  	height: 150px;
+}
+.methodology-inner {
+  	position: absolute;
+  	top: 1963px;
+  	left: 1393px;
+  	width: 96px;
+  	height: 150px;
+  	font-size: 18px;
+  	color: #0b132a;
+}
+.data-collection-and {
+  	position: absolute;
+  	top: 2016.11px;
+  	left: 180px;
+  	font-size: 18px;
+  	line-height: 30px;
+  	color: #bdbdbd;
+  	display: inline-block;
+  	width: 400px;
+  	height: 62px;
+}
+.flood-sg {
+  	position: absolute;
+  	top: 2098.11px;
+  	left: 180px;
+  	line-height: 30px;
+  	color: #afb5c0;
+  	display: inline-block;
+  	width: 122px;
+  	height: 30px;
+	
+}
+
+.flood-sg1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 165px;
+}
+.flood-sg-wrapper {
+	position: absolute;
+	top: 3px;
+	left: 72px;
+	width: 165px;
+	height: 30px;
+}
+.icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 72px;
+  	height: 36px;
+  	object-fit: cover;
+}
+.group-parent {
+  	position: absolute;
+  	top: 1966.11px;
+  	left: 180px;
+  	width: 238px;
+  	height: 36px;
+  	text-align: center;
+  	font-size: 22px;
+  	color: #3f5762;
+}
+.this-project-is {
+  	position: absolute;
+  	top: 180px;
+  	left: calc(50% - 649.5px);
+  	font-size: 17px;
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 1300px;
+}
+.what-tools-and {
+  	position: absolute;
+  	top: 923px;
+  	left: 150px;
+  	font-size: 35px;
+  	line-height: 50px;
+  	font-weight: 500;
+  	color: #3f5762;
+  	display: inline-block;
+  	width: 769px;
+}
+.elevation-base {
+  	white-space: pre-wrap;
+}
+.building-footprints-and-reside {
+  	margin-bottom: 0px;
+  	white-space: pre-wrap;
+}
+.dem-of-singapore-for-terrain-a {
+  	margin: 0;
+  	font-size: inherit;
+  	padding-left: 19px;
+}
+.elevation-base-container {
+  	position: absolute;
+  	top: 115.05px;
+  	left: 35.76px;
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 450.2px;
+  	height: 206.6px;
+}
+.qgis-spatial-data-processing1 {
+  	margin-bottom: 0px;
+}
+.data-processing-container {
+  	position: absolute;
+  	top: 306px;
+  	left: 35.84px;
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 394.3px;
+  	height: 173px;
+}
+.participatory-data-input-container {
+  	position: absolute;
+  	top: 433.39px;
+  	left: 35.76px;
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 396.6px;
+  	height: 106.1px;
+}
+.website-design-container {
+  	position: absolute;
+  	top: 557.38px;
+  	left: 35.83px;
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 419.1px;
+  	height: 139.6px;
+}
+.tools-data {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 40px;
+  	line-height: 50px;
+  	font-weight: 500;
+  	color: rgba(63, 87, 98, 0.17);
+  	display: inline-block;
+  	width: 395.7px;
+  	height: 111.7px;
+}
+.group-child {
+  	position: absolute;
+  	top: 122px;
+  	left: 0px;
+  	width: 20.8px;
+  	height: 19.7px;
+}
+.group-item {
+  	position: absolute;
+  	top: 311.41px;
+  	left: 0px;
+  	width: 20.8px;
+  	height: 19.7px;
+}
+.group-inner {
+  	position: absolute;
+  	top: 438.74px;
+  	left: 0px;
+  	width: 20.8px;
+  	height: 19.7px;
+}
+.bxbxs-check-circle-icon {
+  	position: absolute;
+  	top: 562.73px;
+  	left: 0px;
+  	width: 20.8px;
+  	height: 19.7px;
+  	overflow: hidden;
+}
+.elevation-base-map-data-dem-parent {
+  	position: absolute;
+  	top: 996px;
+  	left: 1039px;
+  	width: 486px;
+  	height: 697px;
+  	font-size: 14px;
+}
+.methodology-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #3f5762;
+  	width: 1675px;
+  	height: 60px;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: 2281px;
+  	left: 0px;
+  	background-color: #3f5762;
+  	width: 1675px;
+  	height: 60px;
+}
+.flood-sg2 {
+  	position: absolute;
+  	top: calc(50% - 15px);
+  	left: calc(50% - 82.5px);
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 165px;
+}
+.flood-sg-container {
+  	position: absolute;
+  	top: calc(50% - 15px);
+  	left: calc(50% - 50.5px);
+  	width: 165px;
+  	height: 30px;
+	
+}
+.parent {
+	position: absolute;
+	top: 12px;
+	left: 60px;
+	width: 245px;
+	height: 36px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 22px;
+	color: #e3effb;
+}
+.group {
+  	position: absolute;
+  	top: 2293px;
+  	left: 60px;
+  	width: 245px;
+  	height: 36px;
+  	cursor: pointer;
+  	text-align: center;
+  	font-size: 22px;
+  	color: #e3effb;
+}
+.about {
+  	width: 46px;
+  	position: relative;
+  	display: inline-block;
+  	height: 39px;
+  	flex-shrink: 0;
+  	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.methodology1 {
+  	width: 97px;
+  	position: relative;
+  	color: #3d6d82;
+  	display: inline-block;
+  	height: 39px;
+  	flex-shrink: 0;
+  	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+.story-page {
+  	width: 82px;
+  	position: relative;
+  	display: inline-block;
+  	height: 39px;
+  	flex-shrink: 0;
+  	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.survey-page {
+  	width: 93px;
+  	position: relative;
+  	display: inline-block;
+  	height: 41px;
+  	flex-shrink: 0;
+  	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.about-parent {
+  	position: absolute;
+  	top: 21px;
+  	left: calc(50% + 317.5px);
+  	width: 455px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 43px;
+  	color: #fff;
+}
+.about1 {
+  	width: 46px;
+  	position: relative;
+  	display: inline-block;
+  	height: 35px;
+  	flex-shrink: 0;
+  	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.methodology2 {
+  	width: 97px;
+  	position: relative;
+  	color: #3d6d82;
+  	display: inline-block;
+  	height: 35px;
+  	flex-shrink: 0;
+  	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+.story-page1 {
+  	width: 82px;
+  	position: relative;
+  	display: inline-block;
+  	height: 35px;
+  	flex-shrink: 0;
+  	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.survey-page1 {
+  	width: 93px;
+  	position: relative;
+  	display: inline-block;
+  	height: 35px;
+  	flex-shrink: 0;
+  	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.about-group {
+  	position: absolute;
+  	top: 2302px;
+  	left: calc(50% + 317.5px);
+  	width: 455px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 43px;
+  	color: #fff;
+}
+.image-34-icon {
+  	position: absolute;
+  	top: 293px;
+  	left: calc(50% - 649.5px);
+  	width: 1299.7px;
+  	height: 544px;
+  	object-fit: cover;
+}
+.how-did-we {
+  	position: absolute;
+  	top: 121px;
+  	left: 188px;
+  	font-size: 35px;
+  	line-height: 30px;
+  	font-weight: 500;
+  	color: #3f5762;
+  	display: inline-block;
+  	width: 1117px;
+  	height: 59px;
+}
+.component-1-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 24px;
+  	background-color: #f7fbff;
+}
+.component-1-item {
+  	position: absolute;
+  	top: 278.32px;
+  	left: 36px;
+  	width: 148.7px;
+  	height: 39.8px;
+}
+.component-1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 360px;
+  	height: 335px;
+}
+.jaxa-earth-observation {
+  	position: absolute;
+  	top: 85px;
+  	left: 231px;
+  	line-height: 15px;
+  	display: flex;
+  	align-items: center;
+  	width: 127px;
+  	height: 35px;
+}
+.singapores-open-data-portal-container {
+  	position: absolute;
+  	top: 206px;
+  	left: 231px;
+  	line-height: 15px;
+  	display: flex;
+  	align-items: center;
+  	width: 127px;
+  	height: 35px;
+}
+.image-icon {
+  	position: absolute;
+  	top: 72px;
+  	left: 23px;
+  	border-radius: 17px;
+  	width: 174px;
+  	height: 107px;
+  	object-fit: cover;
+}
+.image-icon1 {
+  	position: absolute;
+  	top: 198px;
+  	left: 23px;
+  	border-radius: 17px;
+  	width: 174px;
+  	height: 107px;
+  	object-fit: cover;
+}
+.b {
+  	position: absolute;
+  	top: 25px;
+  	left: 34px;
+  	font-size: 36px;
+  	line-height: 30px;
+  	display: inline-block;
+  	color: #0e3757;
+  	width: 59px;
+  	height: 38px;
+}
+.component-8 {
+  	position: absolute;
+  	top: 362px;
+  	left: 0px;
+  	width: 360px;
+  	height: 335px;
+}
+.ushahidi {
+  	position: absolute;
+  	top: 491px;
+  	left: 231px;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	width: 127px;
+  	height: 35px;
+}
+.image-icon2 {
+  	position: absolute;
+  	top: 478px;
+  	left: 23px;
+  	border-radius: 17px;
+  	width: 174px;
+  	height: 107px;
+  	object-fit: cover;
+}
+.b1 {
+  	position: absolute;
+  	top: 383px;
+  	left: 34px;
+  	font-size: 36px;
+  	line-height: 30px;
+  	display: inline-block;
+  	color: #0e3757;
+  	width: 59px;
+  	height: 38px;
+}
+.component-7-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 24px;
+  	background-color: #f7fbff;
+  	border: 1px solid rgba(0, 0, 0, 0);
+  	box-sizing: border-box;
+}
+.component-7 {
+  	position: absolute;
+  	top: 0px;
+  	left: 428px;
+  	width: 360px;
+  	height: 335px;
+}
+.qgis {
+  	position: absolute;
+  	top: 79px;
+  	left: 681px;
+  	line-height: 15px;
+  	display: flex;
+  	align-items: center;
+  	width: 127px;
+  	height: 35px;
+}
+.geospatial-processing-txt-container {
+  	width: 100%;
+}
+.geospatial-processing {
+  	position: absolute;
+  	top: 114px;
+  	left: 681px;
+  	font-size: 12px;
+  	line-height: 10px;
+  	color: rgba(0, 0, 0, 0.57);
+  	display: flex;
+  	align-items: center;
+  	width: 134px;
+  	height: 35px;
+}
+.mapbox {
+  	position: absolute;
+  	top: 206px;
+  	left: 681px;
+  	line-height: 15px;
+  	display: flex;
+  	align-items: center;
+  	width: 127px;
+  	height: 35px;
+}
+.group-child1 {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 47px;
+  	border: 2px solid #3f5762;
+  	box-sizing: border-box;
+}
+.more-info {
+  	position: absolute;
+  	height: 100%;
+  	width: 98.71%;
+  	top: 0%;
+  	left: 0%;
+  	line-height: 30px;
+  	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	/* 🎨 样式部分 */
+	color: #2f4a58;
+	background-color: transparent;
+	border-radius: 40px;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	overflow: hidden;  /* 保证背景不溢出边角 */
+	box-sizing: border-box; /* 防止边框撑大按钮 */
+}
+/* 🎬 悬停效果 */
+.more-info:hover {
+	background-color: #2f4a58;
+	color: white;
+	text-decoration: underline;
+}
+
+.rectangle-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.group-wrapper {
+  	position: absolute;
+  	top: 266px;
+  	left: 673px;
+  	width: 101px;
+  	height: 27px;
+  	cursor: pointer;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #3f5762;
+}
+.image-icon3 {
+  	position: absolute;
+  	top: 72px;
+  	left: 457px;
+  	border-radius: 17px;
+  	width: 174px;
+  	height: 107px;
+  	object-fit: cover;
+}
+.image-icon4 {
+  	position: absolute;
+  	top: 198px;
+  	left: 457px;
+  	border-radius: 17px;
+  	width: 174px;
+  	height: 107px;
+  	object-fit: cover;
+}
+.b2 {
+  	position: absolute;
+  	top: 25px;
+  	left: 470px;
+  	font-size: 36px;
+  	line-height: 30px;
+  	display: inline-block;
+  	color: #0e3757;
+  	width: 59px;
+  	height: 38px;
+}
+.component-9 {
+  	position: absolute;
+  	top: 362px;
+  	left: 428px;
+  	width: 360px;
+  	height: 335px;
+}
+.code-editing {
+  	position: absolute;
+  	top: 614px;
+  	left: 681px;
+  	font-size: 12px;
+  	line-height: 15px;
+  	color: rgba(0, 0, 0, 0.57);
+  	display: flex;
+  	align-items: center;
+  	width: 134px;
+  	height: 35px;
+}
+.figma {
+  	position: absolute;
+  	top: 433px;
+  	left: 681px;
+  	line-height: 15px;
+  	display: flex;
+  	align-items: center;
+  	width: 127px;
+  	height: 35px;
+}
+.vs-code {
+  	position: absolute;
+  	top: 560px;
+  	left: 681px;
+  	line-height: 15px;
+  	display: flex;
+  	align-items: center;
+  	width: 127px;
+  	height: 35px;
+}
+.group-container {
+  	position: absolute;
+  	top: 491px;
+  	left: 665px;
+  	width: 101px;
+  	height: 27px;
+  	cursor: pointer;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #3f5762;
+}
+.image-icon5 {
+  	position: absolute;
+  	top: 426px;
+  	left: 457px;
+  	border-radius: 17px;
+  	width: 174px;
+  	height: 107px;
+  	object-fit: cover;
+}
+.image-icon6 {
+  	position: absolute;
+  	top: 552px;
+  	left: 457px;
+  	border-radius: 17px;
+  	width: 174px;
+  	height: 107px;
+  	object-fit: cover;
+}
+.b3 {
+  	position: absolute;
+  	top: 381px;
+  	left: 470px;
+  	font-size: 36px;
+  	line-height: 30px;
+  	display: inline-block;
+  	color: #0e3757;
+  	width: 59px;
+  	height: 38px;
+}
+.group-frame {
+  	position: absolute;
+  	top: 141px;
+  	left: 220px;
+  	width: 101px;
+  	height: 27px;
+  	cursor: pointer;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #3f5762;
+}
+.frame-div {
+  	position: absolute;
+  	top: 266px;
+  	left: 220px;
+  	width: 101px;
+  	height: 27px;
+  	cursor: pointer;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #3f5762;
+}
+.group-wrapper1 {
+  	position: absolute;
+  	top: 552px;
+  	left: 220px;
+  	width: 101px;
+  	height: 27px;
+  	cursor: pointer;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #3f5762;
+}
+.component-1-parent {
+  	position: absolute;
+  	top: 996px;
+  	left: 150px;
+  	width: 815px;
+  	height: 697px;
+  	font-size: 13px;
+  	color: #000;
+}
+.methodology {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 2341px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #4f5665;
+  	font-family: Rubik;
+}
+
+.dem-of-singapore-for-terrain-a {
+	padding-left: 20px;
+	list-style-type: disc;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #4f5665;
+	margin-top: 10px;
+  }
+
+  .icon-check {
+	width: 18px;         /* 可根据图标原始大小微调 */
+	height: 18px;
+	margin-top: 14px;     /* ⬅️ 关键，向下移动图标 */
+  }
+
+  a.about,
+  a.methodology,
+  a.story-page,
+  a.survey-page,
+  a.about1,
+  a.methodology2,
+  a.story-page1,
+  a.survey-page1 {
+	text-decoration: none;
+	color: inherit;
+  }
+
+  b.methodology,
+  b.methodology2{
+		width: 97px;
+		position: relative;
+		font-size: 16px;
+		font-family: Rubik;
+		color: #3d6d82;
+		text-align: left;
+		display: inline-block;
+		height: 41px;
+		text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+  }
+  
+  a.flood-sg2 {
+	text-decoration: none;
+	color: inherit;
+  }
+  

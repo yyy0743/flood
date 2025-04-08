@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Flood in Singapore - StoryMap</title>
+<meta content="initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"/>
+<link href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg" rel="icon" type="image/x-icon"/>
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/mapbox-gl-globe-minimap@1.2.0/dist/bundle.js"></script>
+<script src="https://unpkg.com/scrollama"></script>
+<script src="./config.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+        body {
+            margin: 0;
+            padding: 28px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #map {
+            top: 0;
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+        }
+
+        #header {
+            margin: auto;
+            width: 100%;
+            position: relative;
+            z-index: 5;
+        }
+
+        #header h1,
+        #header h2,
+        #header p {
+            margin: 0;
+            padding: 2vh 2vw;
+            text-align: center;
+        }
+
+        #footer {
+            width: 100%;
+            min-height: 5vh;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            text-align: center;
+            line-height: 25px;
+            font-size: 13px;
+            position: relative;
+            z-index: 5;
+        }
+
+        #features {
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+
+        .centered {
+            width: 50vw;
+            margin: 0 auto;
+        }
+
+        .lefty {
+            width: 20vw;
+            margin-left: 1vw;
+        }
+
+        .righty {
+            width: 33vw;
+            margin-left: 62vw;
+        }
+
+        .fully {
+            width: 100%;
+            margin: auto;
+        }
+
+        .light {
+            color: #444;
+            background-color: #fafafa;
+        }
+
+        .dark {
+            color: #fafafa;
+            background-color: #444;
+        }
+
+        .step {
+            padding-bottom: 50vh;
+            /* margin-bottom: 10vh; */
+            opacity: 0.25;
+        }
+
+        .step.active {
+            opacity: 0.9;
+        }
+
+        .step div {
+            padding: 25px 50px;
+            line-height: 25px;
+            font-size: 13px;
+        }
+
+        .step img {
+            width: 100%;
+        }
+
+        .flood-sg {
+          position: relative;
+          font-size: 22px;
+          font-family: 'Rubik', sans-serif;
+          color: #e3effb;
+          text-align: center;
+          display: inline-block;
+          height: 30px;
+          margin-left: 10px;
+}
+
+        .about {
+        position: relative;
+        font-size: 16px;
+        font-family: 'Rubik';
+        color: #fff;
+        text-align: left;
+        display: inline-block;
+  	    text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+        }
+
+        .story-page {
+          position: relative;
+          font-size: 16px;
+          font-family: Rubik;
+          color: #3d6d82;
+          text-align: left;
+          display: inline-block;
+          text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+        }
+
+
+        @media (max-width: 750px) {
+
+            .centered,
+            .lefty,
+            .righty,
+            .fully {
+                width: 90vw;
+                margin: 0 auto;
+            }
+        }
+        #slider-container {
+      position: fixed;
+      bottom: 30px;
+      left: 2.5vw;
+      z-index: 999;
+      background: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+
+
+        /* Fix issue on mobile browser where scroll breaks  */
+        .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
+        .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+            touch-action: unset;
+        }
+    
+
+#story { padding-top: 80px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div class="group-parent" style="width: 100%; height: 60px; background-color: #3f5762; display: flex; align-items: center; justify-content: space-between; padding: 0 40px; box-sizing: border-box; position: fixed; top: 0; z-index: 9999;">
+  <div class="flood-sg-wrapper" style="display: flex; align-items: center;font-family: 'Rubik', sans-serif;">
+    <img src="website image\wave-white.png" alt="logo" style="height: 30px; margin-left: 40px;" />
+    <div class="flood-sg" style = margin-left:20px;>FLOOD SG</div>
+  </div>
+<div class="about-parent" style="display: flex; gap: 40px; margin-right: 60px;">
+<a class="about" href="About page.html" style="color: white; text-decoration: none; font-weight: 500;">About</a>
+<a class="about" href="Methodology-page.html" style="color: white; text-decoration: none; font-weight: 500;">Methodology</a>
+<a class="story-page" href="startpage.html" style="color: #3d6d82; text-decoration: none; font-weight: 500;">Story Page</a>
+<a class="about" href="Survey-page.html" style="color: white; text-decoration: none; font-weight: 500;">Survey Page</a>
+</div>
+</div>
+
+
+<div id="story"></div>
+<!-- Slider bar -->
+<div id="slider-container">
+<h3>Sea Level: <span id="slider-value">1m</span></h3>
+<input id="slider" max="8" min="1" step="1" type="range" value="1"/>
+</div>
+<script>
+    const storyEl = document.getElementById('story');
+    const features = document.createElement('div');
+    features.setAttribute('id', 'features');
+
+    if (config.title || config.subtitle || config.byline) {
+      const header = document.createElement('div');
+      if (config.title) {
+        const titleEl = document.createElement('h1');
+        titleEl.innerText = config.title;
+        header.appendChild(titleEl);
+      }
+      if (config.subtitle) {
+        const subtitleEl = document.createElement('h2');
+        subtitleEl.innerText = config.subtitle;
+        header.appendChild(subtitleEl);
+      }
+      if (config.byline) {
+        const bylineEl = document.createElement('p');
+        bylineEl.innerText = config.byline;
+        header.appendChild(bylineEl);
+      }
+      header.classList.add(config.theme);
+      header.setAttribute('id', 'header');
+      storyEl.appendChild(header);
+    }
+
+    config.chapters.forEach((chapter, idx) => {
+      const container = document.createElement('div');
+      container.setAttribute('id', chapter.id);
+      container.classList.add('step');
+      if (idx === 0) container.classList.add('active');
+
+      const chapterEl = document.createElement('div');
+      chapterEl.classList.add(config.theme);
+
+      if (chapter.title) {
+        const title = document.createElement('h3');
+        title.innerText = chapter.title;
+        chapterEl.appendChild(title);
+      }
+      if (chapter.image) {
+        const image = new Image();
+        image.src = chapter.image;
+        chapterEl.appendChild(image);
+      }
+      if (chapter.description) {
+        const desc = document.createElement('p');
+        desc.innerHTML = chapter.description;
+        chapterEl.appendChild(desc);
+      }
+
+      const alignmentClass = {
+        left: 'lefty',
+        center: 'centered',
+        right: 'righty',
+        full: 'fully',
+        half: 'centered'
+      }[chapter.alignment] || 'centered';
+
+      container.classList.add(alignmentClass);
+      if (chapter.hidden) container.classList.add('hidden');
+
+      container.appendChild(chapterEl);
+      features.appendChild(container);
+    });
+
+    storyEl.appendChild(features);
+
+    if (config.footer) {
+      const footer = document.createElement('div');
+      footer.setAttribute('id', 'footer');
+      footer.classList.add(config.theme);
+      const footerText = document.createElement('p');
+      footerText.innerHTML = config.footer;
+      footer.appendChild(footerText);
+      storyEl.appendChild(footer);
+    }
+  </script>
+<script>
+    mapboxgl.accessToken = config.accessToken;
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: config.style,
+      center: config.chapters[0].location.center,
+      zoom: config.chapters[0].location.zoom,
+      bearing: config.chapters[0].location.bearing,
+      pitch: config.chapters[0].location.pitch,
+      interactive: false,
+      projection: config.projection
+    });
+
+    const scroller = scrollama();
+
+    const layerTypes = {
+      'fill': ['fill-opacity'],
+      'line': ['line-opacity'],
+      'circle': ['circle-opacity', 'circle-stroke-opacity'],
+      'symbol': ['icon-opacity', 'text-opacity'],
+      'raster': ['raster-opacity'],
+      'fill-extrusion': ['fill-extrusion-opacity'],
+      'heatmap': ['heatmap-opacity']
+    };
+
+    function getLayerPaintType(layer) {
+      var layerType = map.getLayer(layer).type;
+      return layerTypes[layerType];
+    }
+
+    function setLayerOpacity(layer) {
+      var paintProps = getLayerPaintType(layer.layer);
+      paintProps.forEach(function (prop) {
+        var options = {};
+        if (layer.duration) {
+          var transitionProp = prop + "-transition";
+          options = { "duration": layer.duration };
+          map.setPaintProperty(layer.layer, transitionProp, options);
+        }
+        map.setPaintProperty(layer.layer, prop, layer.opacity, options);
+      });
+    }
+
+    map.on("load", function () {
+      if (config.use3dTerrain) {
+        map.addSource('mapbox-dem', {
+          'type': 'raster-dem',
+          'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
+          'tileSize': 512,
+          'maxzoom': 14
+        });
+        map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
+        map.addLayer({
+          'id': 'sky',
+          'type': 'sky',
+          'paint': {
+            'sky-type': 'atmosphere',
+            'sky-atmosphere-sun': [0.0, 0.0],
+            'sky-atmosphere-sun-intensity': 15
+          }
+        });
+      }
+
+      const floodLayers = ['1m', '2m', '3m', '4m', '5m', '6m', '7m'];
+      const floodSources = [
+        'mapbox://mktaro.3470317j',
+        'mapbox://mktaro.12v3r18o',
+        'mapbox://mktaro.92ckf8tv',
+        'mapbox://mktaro.a19rybvo',
+        'mapbox://mktaro.2ph94oxl',
+        'mapbox://mktaro.1a62ark2',
+        'mapbox://mktaro.b2dol64y'
+      ];
+
+      floodLayers.forEach((layer, index) => {
+        map.addLayer({
+          id: layer,
+          type: 'fill',
+          source: { type: 'vector', url: floodSources[index] },
+          'source-layer': layer,
+          paint: { 'fill-color': '#2DC4B2', 'fill-opacity': 0.6 },
+          layout: { 'visibility': index === 0 ? 'visible' : 'none' },
+          filter: ['==', ['get', 'ELEV_MAX'], index]
+        });
+      });
+
+      document.getElementById('slider').addEventListener('input', (event) => {
+        const depth = parseInt(event.target.value);
+        floodLayers.forEach((layer, index) => {
+          map.setLayoutProperty(layer, 'visibility', index <= depth ? 'visible' : 'none');
+        });
+        document.getElementById('slider-value').innerText = depth + 'm';
+      });
+
+      scroller
+        .setup({ step: '.step', offset: 0.5, progress: true })
+        .onStepEnter(response => {
+          const chapter = config.chapters.find(chap => chap.id === response.element.id);
+          response.element.classList.add('active');
+          map[chapter.mapAnimation || 'flyTo'](chapter.location);
+
+          if (config.showMarkers) {
+            const marker = new mapboxgl.Marker({ color: config.markerColor });
+            marker.setLngLat(chapter.location.center).addTo(map);
+          }
+          if (chapter.onChapterEnter.length > 0) {
+            chapter.onChapterEnter.forEach(setLayerOpacity);
+          }
+          if (chapter.callback) {
+            window[chapter.callback]();
+          }
+          if (chapter.rotateAnimation) {
+            map.once('moveend', () => {
+              const rotateNumber = map.getBearing();
+              map.rotateTo(rotateNumber + 180, {
+                duration: 30000,
+                easing: t => t
+              });
+            });
+          }
+        })
+        .onStepExit(response => {
+          const chapter = config.chapters.find(chap => chap.id === response.element.id);
+          response.element.classList.remove('active');
+          if (chapter.onChapterExit.length > 0) {
+            chapter.onChapterExit.forEach(setLayerOpacity);
+          }
+        });
+    });
+  </script>
+</body>
+
+</html>

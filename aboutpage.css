@@ -1,0 +1,862 @@
+.about-child {
+	position: absolute;
+	width: 100%;
+	top: 3927px;
+	right: 0px;
+	left: 0px;
+	background-color: #f8f8f8;
+	height: 563px;
+}
+.background-wave-icon {
+	position: absolute;
+	width: 100%;
+	top: 795px;
+	right: 0px;
+	left: 0px;
+	max-width: 100%;
+	overflow: hidden;
+	height: 3132px;
+}
+.idea-1-icon {
+	position: absolute;
+	top: 2720px;
+	left: 588px;
+	width: 48px;
+	height: 48px;
+	object-fit: cover;
+}
+.singapore-faces-flooding {
+	position: absolute;
+	top: 2818px;
+	left: calc(50% - 574.5px);
+	line-height: 30px;
+	color: #4f5665;
+	text-align: center;
+	display: inline-block;
+	width: 1150px;
+	height: 60px;
+}
+.our-project-objective {
+	position: absolute;
+	top: 2720px;
+	left: calc(50% - 187.5px);
+	font-size: 35px;
+	line-height: 50px;
+	font-weight: 500;
+	white-space: pre-wrap;
+	text-align: center;
+	display: inline-block;
+	width: 375px;
+	height: 50px;
+	text-shadow: 4px 4px 4px rgba(63, 87, 98, 0.3);
+}
+.product {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #0b132a;
+}
+.download {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	line-height: 30px;
+}
+.locations {
+	position: absolute;
+	top: 90.11px;
+	left: 0px;
+	line-height: 30px;
+}
+.server {
+	position: absolute;
+	top: 130.11px;
+	left: 0px;
+	line-height: 30px;
+}
+.blog {
+	position: absolute;
+	top: 170.22px;
+	left: 0px;
+	line-height: 30px;
+}
+.product-parent {
+	position: absolute;
+	top: 4100px;
+	left: 870px;
+	width: 74px;
+	height: 200.2px;
+	color: #4f5665;
+}
+
+.faq {
+	position: absolute;
+	top: 50.11px;
+	left: 0px;
+	line-height: 30px;
+}
+.were-hiring {
+	position: absolute;
+	top: 170.11px;
+	left: 0px;
+	line-height: 30px;
+}
+.company-parent {
+	position: absolute;
+	top: 4100px;
+	left: 1080px;
+	width: 90px;
+	height: 200.1px;
+	color: #4f5665;
+}
+
+.privacy {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 30px;
+	font-weight: 500;
+}
+.terms-of-use {
+	margin-block-start: 0;
+	margin-block-end: 5px;
+}
+.site-map {
+	margin: 0;
+}
+.privacy-terms-of-container {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #4f5665;
+}
+.privacy-parent {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 96px;
+	height: 150px;
+}
+.about-inner {
+	position: absolute;
+	top: 4100px;
+	left: 1280px;
+	width: 96px;
+	height: 150px;
+	font-size: 18px;
+	color: #0b132a;
+}
+
+.data-collection-and {
+	position: absolute;
+	top: 4159px;
+	left: 180px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #bdbdbd;
+	display: inline-block;
+	width: 400px;
+	height: 62px;
+}
+.flood-sg {
+	position: absolute;
+	top: 4241px;
+	left: 180px;
+	line-height: 30px;
+	color: #afb5c0;
+	display: inline-block;
+	width: 122px;
+	height: 30px;
+}
+.about-item {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #3f5762;
+	width: 100%;
+	height: 60px;
+}
+.rectangle-div {
+	position: absolute;
+	top: 4430px;
+	left: 0px;
+	background-color: #3f5762;
+	width: 100%;
+	height: 60px;
+}
+.component-1-child {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 24px;
+	background-color: #fff;
+}
+.odit-sed-accusantium-container {
+	position: absolute;
+	top: 72px;
+	left: 36px;
+	line-height: 20px;
+	font-weight: 500;
+}
+.component-1 {
+	position: absolute;
+	top: 2968px;
+	left: 209px;
+	width: 547px;
+	height: 355px;
+	font-size: 20px;
+}
+.odit-sed-accusantium {
+	position: absolute;
+	top: 79px;
+	left: 36px;
+	line-height: 30px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	width: 297px;
+	height: 30px;
+}
+.component-4 {
+	position: absolute;
+	top: 3375px;
+	left: 209px;
+	width: 547px;
+	height: 355px;
+	font-size: 20px;
+}
+.odit-sed-accusantium1 {
+	position: absolute;
+	top: 79px;
+	left: 36px;
+	line-height: 30px;
+	font-weight: 500;
+}
+.component-2 {
+	position: absolute;
+	top: 2968px;
+	left: 920px;
+	width: 547px;
+	height: 355px;
+	font-size: 20px;
+}
+.component-5-item {
+	position: absolute;
+	top: 278.32px;
+	left: 36px;
+	width: 148.7px;
+	height: 39.8px;
+}
+.component-5 {
+	position: absolute;
+	top: 3375px;
+	left: 920px;
+	width: 547px;
+	height: 355px;
+	font-size: 20px;
+}
+.icon {
+	position: absolute;
+	top: 3514.55px;
+	left: 621px;
+	width: 91px;
+	height: 91px;
+	object-fit: cover;
+}
+.icon1 {
+	position: absolute;
+	top: 3529.55px;
+	left: 1362px;
+	width: 75px;
+	height: 75px;
+	object-fit: cover;
+}
+.singapores-vast-coastline {
+	position: absolute;
+	top: 125px;
+	left: 0px;
+	line-height: 24px;
+	display: inline-block;
+	width: 435.7px;
+	height: 59px;
+}
+.climate-change-in {
+	position: absolute;
+	top: 209px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 397px;
+	height: 31px;
+}
+.what-causes-climate {
+	position: absolute;
+	top: 256px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 397px;
+	height: 31px;
+}
+.how-does-climate {
+	position: absolute;
+	top: 303px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 407.2px;
+	height: 31px;
+}
+.current-environmental-issues {
+	position: absolute;
+	top: 350px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 397px;
+	height: 28px;
+}
+.group-child {
+	position: absolute;
+	top: 211.99px;
+	left: 0.12px;
+	width: 24.4px;
+	height: 25.1px;
+}
+.group-item {
+	position: absolute;
+	top: 259.09px;
+	left: 0.12px;
+	width: 24.4px;
+	height: 25.1px;
+}
+.group-inner {
+	position: absolute;
+	top: 306.19px;
+	left: 0.12px;
+	width: 24.4px;
+	height: 25.1px;
+}
+.bxbxs-check-circle-icon {
+	position: absolute;
+	top: 353.29px;
+	left: 0.12px;
+	width: 24.4px;
+	height: 25.1px;
+	overflow: hidden;
+}
+.singapores-vast-coastline-and-parent {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 462.1px;
+	height: 378.4px;
+}
+.singapore-has-made {
+	position: absolute;
+	top: 125.12px;
+	left: 0.12px;
+	line-height: 24px;
+	display: inline-block;
+	width: 435.6px;
+	height: 62.8px;
+}
+.types-of-floods {
+	position: absolute;
+	top: 209px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 401.1px;
+	height: 31px;
+}
+.our-climate-is {
+	position: absolute;
+	top: 256px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 401.1px;
+	height: 31px;
+}
+.impact-on-singapore {
+	position: absolute;
+	top: 303px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 401.1px;
+	height: 31px;
+}
+.the-future {
+	position: absolute;
+	top: 349.98px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 401.1px;
+	height: 28px;
+}
+.floods-in-singapore-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 35px;
+	line-height: 50px;
+	font-weight: 600;
+	color: #3f5762;
+	display: inline-block;
+	width: 390.3px;
+	height: 104.7px;
+	text-decoration: none;
+}
+.singapore-has-made-great-progr-parent {
+	position: absolute;
+	top: 872px;
+	left: 0px;
+	width: 456px;
+	height: 378.4px;
+}
+.learn-how-to-be {
+	position: absolute;
+	top: 230px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 403.2px;
+	height: 31px;
+}
+.follow-pub-flood-alerts {
+	position: absolute;
+	top: 190px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 403.2px;
+	height: 31px;
+}
+.avoid-flooded-areas {
+	position: absolute;
+	top: 270px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 401.1px;
+	height: 28px;
+}
+.share-pub-flood-updates {
+	position: absolute;
+	top: 310px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 401.1px;
+	height: 26px;
+}
+.help-others-where-possible {
+	position: absolute;
+	top: 350px;
+	left: 54.87px;
+	line-height: 30px;
+	display: inline-block;
+	width: 403.2px;
+	height: 26px;
+}
+.get-flood-wise-in-flash-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 35px;
+	line-height: 50px;
+	font-weight: 600;
+	color: #3f5762;
+	display: inline-block;
+	width: 390.3px;
+	height: 104.7px;
+}
+.group-child3 {
+	position: absolute;
+	top: 233px;
+	left: 0px;
+	width: 24.4px;
+	height: 25.1px;
+}
+.group-child4 {
+	position: absolute;
+	top: 193px;
+	left: 0px;
+	width: 24.4px;
+	height: 25.1px;
+}
+.group-child5 {
+	position: absolute;
+	top: 273px;
+	left: 0px;
+	width: 24.4px;
+	height: 25.1px;
+}
+.group-child6 {
+	position: absolute;
+	top: 313px;
+	left: 0px;
+	width: 24.4px;
+	height: 25.1px;
+}
+.bxbxs-check-circle-icon2 {
+	position: absolute;
+	top: 353px;
+	left: 0px;
+	width: 24.4px;
+	height: 25.1px;
+	overflow: hidden;
+}
+.you-can-explore-the-features-t-parent {
+	position: absolute;
+	top: 1773px;
+	left: 0px;
+	width: 458px;
+	height: 378.1px;
+}
+.text {
+	position: absolute;
+	top: 227px;
+	left: 1019px;
+	width: 462.1px;
+	height: 2151.1px;
+	font-size: 14px;
+	color: #4f5665;
+}
+.image-icon {
+	position: absolute;
+	top: 247px;
+	left: 180px;
+	width: 600px;
+	height: 400px;
+	object-fit: cover;
+}
+.rising-sea-levels {
+	position: absolute;
+	top: 3123.55px;
+	left: 245px;
+	font-size: 18px;
+	line-height: 25px;
+	color: #5b6776;
+	display: inline-block;
+	width: 285px;
+	height: 125px;
+}
+.using-elevation-data {
+	position: absolute;
+	top: 3123.55px;
+	left: 962px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #5b6776;
+	display: inline-block;
+	width: 285px;
+	height: 150px;
+}
+.open-access-to {
+	position: absolute;
+	top: 3535.55px;
+	left: 962px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #5b6776;
+	display: inline-block;
+	width: 285px;
+	height: 120px;
+}
+.crowdsourced-flash-flood {
+	position: absolute;
+	top: 3535.55px;
+	left: 245px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #5b6776;
+	display: inline-block;
+	width: 285px;
+	height: 90px;
+}
+.icon2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 72px;
+	height: 36px;
+	object-fit: cover;
+}
+.flood-sg1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 30px;
+	display: inline-block;
+	width: 165px;
+}
+.flood-sg-wrapper {
+	position: absolute;
+	top: 3px;
+	left: 72px;
+	width: 165px;
+	height: 30px;
+}
+.parent {
+	position: absolute;
+	top: 12px;
+	left: 60px;
+	width: 231px;
+	height: 36px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 22px;
+	color: #e3effb;
+}
+.group {
+	position: absolute;
+	top: 4442px;
+	left: 60px;
+	width: 231px;
+	height: 36px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 22px;
+	color: #e3effb;
+}
+.group-child7 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	border-radius: 47px;
+	border: 2px solid #3f5762;
+	box-sizing: border-box;
+}
+.more-info {
+	position: absolute;
+	height: 100%;
+	width: 98.72%;
+	top: 0%;
+	left: 0%;
+	line-height: 30px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+		/* 🎨 样式部分 */
+	color: #2f4a58;
+	background-color: transparent;
+	border-radius: 40px;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	overflow: hidden;  /* 保证背景不溢出边角 */
+	box-sizing: border-box; /* 防止边框撑大按钮 */
+}
+.rectangle-parent {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	cursor: pointer;
+}
+.group-container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+}
+.group-wrapper {
+	position: absolute;
+	height: 100%;
+	width: 98.03%;
+	top: 0%;
+	right: 1.97%;
+	bottom: 0%;
+	left: 0%;
+}
+.group-div {
+	position: absolute;
+	top: 2400px;
+	left: 1074px;
+	width: 152px;
+	height: 40px;
+	text-align: center;
+}
+
+/* 🎬 悬停效果 */
+.more-info:hover {
+	background-color: #2f4a58;
+	color: white;
+	text-decoration: underline;
+}
+
+.data1-1-icon {
+	position: absolute;
+	top: 3127px;
+	left: 1361px;
+	width: 72px;
+	height: 72px;
+	object-fit: cover;
+}
+.icon4 {
+	position: absolute;
+	top: 3123.55px;
+	left: 624px;
+	width: 92px;
+	height: 74px;
+	object-fit: cover;
+}
+.flood-sg-frame {
+	position: absolute;
+	top: 3px;
+	left: 73px;
+	width: 165px;
+	height: 30px;
+}
+.group-parent {
+	position: absolute;
+	top: 4109px;
+	left: 180px;
+	width: 238px;
+	height: 36px;
+	text-align: center;
+	font-size: 22px;
+}
+.image-35-icon {
+	position: absolute;
+	top: 1119px;
+	left: 180px;
+	border-radius: 40px;
+	width: 600px;
+	height: 400px;
+	object-fit: cover;
+}
+.about-inner1 {
+	position: absolute;
+	top: 1499px;
+	left: 1074px;
+	width: 152px;
+	height: 40px;
+	text-align: center;
+}
+.group-wrapper2 {
+	position: absolute;
+	height: 100%;
+	width: 98.03%;
+	top: 0%;
+	right: 1.97%;
+	bottom: 0%;
+	left: 0%;
+	cursor: pointer;
+}
+.about-inner2 {
+	position: absolute;
+	top: 627px;
+	left: 1074px;
+	width: 152px;
+	height: 40px;
+	text-align: center;
+}
+.carousel-ttx-icon {
+	position: absolute;
+	top: 2000px;
+	left: 180px;
+	border-radius: 40px;
+	width: 600px;
+	height: 400px;
+	object-fit: cover;
+}
+.about1 {
+	position: relative;
+	color: #3d6d82;
+	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+.methodology {
+	position: relative;
+	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.story-page {
+	width: 82px;
+	position: relative;
+	display: inline-block;
+	flex-shrink: 0;
+	text-shadow: 0.5px 0 0 rgba(173, 216, 221, 0.75), 0 0.5px 0 rgba(173, 216, 221, 0.75), -0.5px 0 0 rgba(173, 216, 221, 0.75), 0 -0.5px 0 rgba(173, 216, 221, 0.75);
+}
+.about-parent {
+	position: absolute;
+	top: 21px;
+	left: calc(50% + 317.5px);
+	width: 460px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 43px;
+	color: #fff;
+	
+}
+.about-group {
+	position: absolute;
+	top: 4450px;
+	left: 1155px;
+	width: 460px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 43px;
+	color: #fff;
+}
+
+.about {
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	height: 4490px;
+	overflow: hidden;
+	text-align: left;
+	font-size: 16px;
+	color: #3f5762;
+	font-family: Rubik;
+}
+
+a.methodology,
+a.story-page,
+a.survey-page,
+a.methodology2,
+a.story-page1,
+a.survey-page1 {
+  text-decoration: none;
+  color: inherit;
+}
+
+b.about,
+b.about1{
+	text-decoration: none;
+}
+	 
+a.flood-sg1 {
+  text-decoration: none;
+  color: inherit;
+}
